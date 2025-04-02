@@ -1,0 +1,22 @@
+{
+    "name": "duukkis/conjugation",
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*"
+    },
+    "authors": [
+        {
+            "name": "duukkis",
+            "email": "duukkis@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Conjugation\\": "src/Conjugation/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
